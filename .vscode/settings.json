@@ -1,0 +1,8 @@
+{
+    "editor.fontSize": 30,
+    "files.associations": {
+        "exception": "cpp",
+        "functional": "cpp",
+        "iostream": "cpp"
+    }
+}
