@@ -33,6 +33,8 @@ class Solution:
                     cnt = 0
                     while tempi < len(s) and tempj < len(s) and dp[tempi][tempj] == 1:
                         tempS.append(s[tempi])
+                        # we don't want to investigate this diagonal again
+                        # the realpalindrome will be somewhere else
                         dp[tempi][tempj] = 0
                         cnt += 1
                         tempi += 1
